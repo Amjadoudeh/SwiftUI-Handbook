@@ -14,6 +14,7 @@
 		70F3837D27C1317A00A8A283 /* SwifUI_handbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3837C27C1317A00A8A283 /* SwifUI_handbookTests.swift */; };
 		70F3838727C1317A00A8A283 /* SwifUI_handbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3838627C1317A00A8A283 /* SwifUI_handbookUITests.swift */; };
 		70F3838927C1317A00A8A283 /* SwifUI_handbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3838827C1317A00A8A283 /* SwifUI_handbookUITestsLaunchTests.swift */; };
+		70F3839627C147DB00A8A283 /* MultiShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3839527C147DB00A8A283 /* MultiShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		70F3838227C1317A00A8A283 /* SwifUI-handbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwifUI-handbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F3838627C1317A00A8A283 /* SwifUI_handbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUI_handbookUITests.swift; sourceTree = "<group>"; };
 		70F3838827C1317A00A8A283 /* SwifUI_handbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUI_handbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70F3839527C147DB00A8A283 /* MultiShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				70F3836D27C1317800A8A283 /* ContentView.swift */,
 				70F3836F27C1317A00A8A283 /* Assets.xcassets */,
 				70F3837127C1317A00A8A283 /* Preview Content */,
+				70F3839527C147DB00A8A283 /* MultiShapes.swift */,
 			);
 			path = "SwifUI-handbook";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F3839627C147DB00A8A283 /* MultiShapes.swift in Sources */,
 				70F3836E27C1317800A8A283 /* ContentView.swift in Sources */,
 				70F3836C27C1317800A8A283 /* SwifUI_handbookApp.swift in Sources */,
 			);
