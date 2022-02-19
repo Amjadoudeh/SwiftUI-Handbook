@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7047FDC127C1505200FE06F2 /* SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047FDC027C1505200FE06F2 /* SimpleLayout.swift */; };
 		70F3836C27C1317800A8A283 /* SwifUI_handbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3836B27C1317800A8A283 /* SwifUI_handbookApp.swift */; };
 		70F3836E27C1317800A8A283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3836D27C1317800A8A283 /* ContentView.swift */; };
 		70F3837027C1317A00A8A283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F3836F27C1317A00A8A283 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7047FDC027C1505200FE06F2 /* SimpleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLayout.swift; sourceTree = "<group>"; };
 		70F3836827C1317800A8A283 /* SwifUI-handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwifUI-handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F3836B27C1317800A8A283 /* SwifUI_handbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUI_handbookApp.swift; sourceTree = "<group>"; };
 		70F3836D27C1317800A8A283 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				70F3836F27C1317A00A8A283 /* Assets.xcassets */,
 				70F3837127C1317A00A8A283 /* Preview Content */,
 				70F3839527C147DB00A8A283 /* MultiShapes.swift */,
+				7047FDC027C1505200FE06F2 /* SimpleLayout.swift */,
 			);
 			path = "SwifUI-handbook";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F3839627C147DB00A8A283 /* MultiShapes.swift in Sources */,
+				7047FDC127C1505200FE06F2 /* SimpleLayout.swift in Sources */,
 				70F3836E27C1317800A8A283 /* ContentView.swift in Sources */,
 				70F3836C27C1317800A8A283 /* SwifUI_handbookApp.swift in Sources */,
 			);
