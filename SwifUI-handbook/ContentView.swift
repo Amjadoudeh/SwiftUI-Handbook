@@ -23,6 +23,8 @@ struct ContentView: View {
             .background(.blue)
             .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
             Spacer()
+            Image("Illustration")
+            Image(systemName: "xmark")
             HStack(alignment: .top){
                 Text("Just to try")
                     .font(.title)
@@ -49,7 +51,6 @@ struct ContentView: View {
             
             
         }
-        .background(.secondary)
         .padding()
         
     }
