@@ -18,6 +18,16 @@ struct ContentView: View {
                     Label("SimpleLayout",systemImage: "book")
                 }
             }.navigationTitle("Learn")
+                .toolbar {
+                    ToolbarItemGroup(placement: .bottomBar) {
+                        Image(systemName: "person")
+                        Spacer()
+                        Image(systemName: "book")
+                        Spacer()
+                        Image(systemName: "trash")
+                        
+                    }
+                }
         }
     }
 }
