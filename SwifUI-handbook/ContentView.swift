@@ -9,25 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink( destination: MultiShapes()) {
-                    Label("MultiShapes",systemImage: "camera.metering.multispot")
-                }
-                NavigationLink( destination: SimpleLayout()) {
-                    Label("SimpleLayout",systemImage: "book")
-                }
-            }.navigationTitle("Learn")
-                .toolbar {
-                    ToolbarItemGroup(placement: .bottomBar) {
-                        Image(systemName: "person")
-                        Spacer()
-                        Image(systemName: "book")
-                        Spacer()
-                        Image(systemName: "trash")
-                        
-                    }
-                }
+        ZStack {
+            Color.orange.ignoresSafeArea(.all)
+            VStack {
+//                NavigationView {
+//                    List {
+//                        NavigationLink( destination: MultiShapes()) {
+//                            Label("MultiShapes",systemImage: "camera.metering.multispot")
+//                        }
+//                        NavigationLink( destination: SimpleLayout()) {
+//                            Label("SimpleLayout",systemImage: "book")
+//                        }
+//                    }.navigationTitle("Learn")
+//                        .toolbar {
+//                            ToolbarItemGroup(placement: .bottomBar) {
+//                                Image(systemName: "person")
+//                                Spacer()
+//                                Image(systemName: "book")
+//                                Spacer()
+//                                Image(systemName: "trash")
+//
+//                            }
+//                        }
+//                }
+            }
         }
     }
 }
