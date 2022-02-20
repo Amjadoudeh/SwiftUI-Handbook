@@ -102,10 +102,11 @@
 			children = (
 				70F3836B27C1317800A8A283 /* SwifUI_handbookApp.swift */,
 				70F3836D27C1317800A8A283 /* ContentView.swift */,
-				70F3836F27C1317A00A8A283 /* Assets.xcassets */,
-				70F3837127C1317A00A8A283 /* Preview Content */,
 				70F3839527C147DB00A8A283 /* MultiShapes.swift */,
 				7047FDC027C1505200FE06F2 /* SimpleLayout.swift */,
+				7047FDC227C1555F00FE06F2 /* ComplexLayout.swift */,
+				70F3836F27C1317A00A8A283 /* Assets.xcassets */,
+				70F3837127C1317A00A8A283 /* Preview Content */,
 			);
 			path = "SwifUI-handbook";
 			sourceTree = "<group>";
@@ -114,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				70F3837227C1317A00A8A283 /* Preview Assets.xcassets */,
-				7047FDC227C1555F00FE06F2 /* ComplexLayout.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
