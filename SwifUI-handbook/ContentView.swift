@@ -21,6 +21,9 @@ struct ContentView: View {
                 NavigationLink( destination: Blog()) {
                     Label("Blog",systemImage: "text.redaction")
                 }
+                NavigationLink( destination: CostumTextField()) {
+                    Label("Text Field",systemImage: "text.redaction")
+                }
                 
             }.navigationTitle("Learn")
                 .toolbar {
