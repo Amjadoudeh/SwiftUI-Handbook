@@ -19,7 +19,7 @@ struct CustomTextField: View {
                             .foregroundColor(.secondary)
                     }
                     TextField("First Name", text: $name)
-                }.animation(.default)
+                }
             }
         }
     }
