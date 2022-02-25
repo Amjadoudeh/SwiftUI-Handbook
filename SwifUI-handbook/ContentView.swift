@@ -21,7 +21,7 @@ struct ContentView: View {
                 NavigationLink( destination: Blog()) {
                     Label("Blog",systemImage: "text.redaction")
                 }
-                NavigationLink( destination: CostumTextField()) {
+                NavigationLink( destination: CustomTextField()) {
                     Label("Text Field",systemImage: "text.redaction")
                 }
                 
