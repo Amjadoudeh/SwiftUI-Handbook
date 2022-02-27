@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct CustomTextField: View {
-    @State var name1 = ""
     @State var name = ""
+    @State var name1 = ""
+    
     var body: some View {
         Form {
             
@@ -25,6 +26,7 @@ struct CustomTextField: View {
                     }
                 }
                 .animation(.default)
+                // need to check for iOS 15 value?
 
                 Section {
                     
