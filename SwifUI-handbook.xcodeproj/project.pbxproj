@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		700EDFA327CB7BDD00F4981D /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		700EDFA527CB7E6300F4981D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7047FDC027C1505200FE06F2 /* SimpleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLayout.swift; sourceTree = "<group>"; };
 		7047FDC227C1555F00FE06F2 /* ComplexLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexLayout.swift; sourceTree = "<group>"; };
 		7047FDC627C2F0FC00FE06F2 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		70F3836A27C1317800A8A283 /* SwifUI-handbook */ = {
 			isa = PBXGroup;
 			children = (
+				700EDFA527CB7E6300F4981D /* Info.plist */,
 				70F3836B27C1317800A8A283 /* SwifUI_handbookApp.swift */,
 				70F3836D27C1317800A8A283 /* ContentView.swift */,
 				70F3839527C147DB00A8A283 /* MultiShapes.swift */,
@@ -446,6 +448,7 @@
 				DEVELOPMENT_TEAM = P569KTXYRS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifUI-handbook/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +478,7 @@
 				DEVELOPMENT_TEAM = P569KTXYRS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifUI-handbook/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
