@@ -19,7 +19,6 @@ struct Blog: View {
     var body: some View {
         ZStack {
             Color.orange.ignoresSafeArea(.all)
-            
             editText()
                 
         }
