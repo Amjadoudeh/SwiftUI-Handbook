@@ -24,6 +24,9 @@ struct ContentView: View {
                 NavigationLink( destination: CustomTextField()) {
                     Label("Text Field",systemImage: "text.redaction")
                 }
+                NavigationLink( destination: Frame()) {
+                    Label("frame alligment",systemImage: "xmark")
+                }
                 
             }.navigationTitle("Learn")
                 .toolbar {
