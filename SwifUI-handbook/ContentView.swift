@@ -27,6 +27,9 @@ struct ContentView: View {
                 NavigationLink( destination: Frame()) {
                     Label("frame alligment",systemImage: "xmark")
                 }
+                NavigationLink( destination: Shadows()) {
+                    Label("Shadows",systemImage: "shadow")
+                }
                 
             }.navigationTitle("Learn")
                 .toolbar {
