@@ -8,17 +8,39 @@
 import SwiftUI
 
 struct Shadows: View {
+    fileprivate func text() -> Text {
+        return Text("Shadows")
+    }
+    
     var body: some View {
         VStack {
-            Text("Shadows").font(.title).bold()
+            Spacer()
+            VStack {
+                text()
+                    .font(.title).bold()
+            }
+            .frame(width: 300, height: 200)
+            .background(Color.white)
+            .cornerRadius(20)
+            .shadow(radius: 5)
+            
+            Spacer()
+            
+            VStack {
+                text()
+                    .font(.title).bold()
+            }
+            .frame(width: 300, height: 200)
+            .background(Color.white)
+            .cornerRadius(20)
+            .shadow(color: .black, radius: 10, x: 10, y: 0.0)
+            
+            Spacer()
         }
-        .frame(width: 300, height: 400)
-        .background(Color.white)
-        .cornerRadius(20)
-        .shadow(radius: 5)
     }
-       
 }
+
+
 
 struct Shadows_Previews: PreviewProvider {
     static var previews: some View {
