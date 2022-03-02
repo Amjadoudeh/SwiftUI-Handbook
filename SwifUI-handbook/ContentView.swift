@@ -30,6 +30,9 @@ struct ContentView: View {
                 NavigationLink( destination: Shadows()) {
                     Label("Shadows",systemImage: "shadow")
                 }
+                NavigationLink( destination: Masks()) {
+                    Label("Masks",systemImage: "theatermasks")
+                }
                 
             }.navigationTitle("Learn")
                 .toolbar {
