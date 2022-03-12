@@ -43,7 +43,7 @@ struct Shadows: View {
             .background(Color.white)
             .cornerRadius(20)
             .shadow(color: .black.opacity(0.3), radius: 10, x: 0.0, y: 10)
-            .shadow(color: .black.opacity(0.2), radius: 5, x: 0.0, y: 5)
+            .shadow(color: .black.opacity(0.2), radius: 5, x: 0.0, y: 7)
             .padding()
             
             Spacer()
