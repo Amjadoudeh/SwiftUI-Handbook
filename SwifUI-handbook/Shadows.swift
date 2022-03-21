@@ -32,7 +32,7 @@ struct Shadows: View {
             .frame(width: 300, height: 100)
             .background(Color.white)
             .cornerRadius(20)
-            .shadow(color: .black.opacity(0.3), radius: 10, x: 0.0, y: 11)
+            .shadow(color: .black.opacity(0.3), radius: 10, x: 0.0, y: 10)
             .padding()
             
             VStack {
