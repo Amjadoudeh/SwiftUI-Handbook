@@ -54,10 +54,10 @@ struct Shadows: View {
                     .foregroundColor(.white)
                     .shadow(radius: 20) //to make it readable
             }
-            .frame(width: 300, height: 170)
+            .frame(width: 300, height: 175)
             .background(Color.blue)
             .cornerRadius(20)
-            .shadow(color: .blue.opacity(0.6), radius: 20, x: 0.0, y: 10)
+            .shadow(color: .blue.opacity(0.6), radius: 20, x: 0.0, y: 12)
             .shadow(color: .blue.opacity(0.4), radius: 5, x: 0.0, y: 5)
             Spacer()
         }
