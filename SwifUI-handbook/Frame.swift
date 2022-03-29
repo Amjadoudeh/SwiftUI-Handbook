@@ -14,7 +14,7 @@ struct Frame: View {
         }
         .overlay() {
             Image(systemName: "xmark")
-                .frame(width: 40 , height: 40)
+                .frame(width: 41 , height: 40)
                 .background(Circle().stroke())
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
                 .padding()
